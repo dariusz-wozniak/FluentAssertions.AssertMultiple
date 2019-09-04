@@ -1,0 +1,2 @@
+# FluentAssertions.AssertMultiple
+AssertMultiple for FluentAssertions
