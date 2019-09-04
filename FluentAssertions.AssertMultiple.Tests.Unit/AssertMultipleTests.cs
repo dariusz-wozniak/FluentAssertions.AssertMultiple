@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using static FluentAssertions.AssertMultiple.AssertMultiple;
 
 namespace FluentAssertions.AssertMultiple.Tests.Unit
 {
@@ -11,7 +12,7 @@ namespace FluentAssertions.AssertMultiple.Tests.Unit
         {
             try
             {
-                AssertMultiple.Multiple(() =>
+                Multiple(() =>
                 {
                     (2 + 2).Should().Be(5);
                     (2 + 2).Should().Be(6);
