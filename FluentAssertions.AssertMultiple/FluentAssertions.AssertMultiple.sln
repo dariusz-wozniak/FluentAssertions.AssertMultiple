@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.AssertMultiple", "FluentAssertions.AssertMultiple.csproj", "{D30C6A2D-012B-4BD8-8774-24FA949F43B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertions.AssertMultiple.Tests.Unit", "..\FluentAssertions.AssertMultiple.Tests.Unit\FluentAssertions.AssertMultiple.Tests.Unit.csproj", "{F743D921-4C10-4211-8AF8-5EB6476956C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30C6A2D-012B-4BD8-8774-24FA949F43B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30C6A2D-012B-4BD8-8774-24FA949F43B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30C6A2D-012B-4BD8-8774-24FA949F43B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30C6A2D-012B-4BD8-8774-24FA949F43B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F743D921-4C10-4211-8AF8-5EB6476956C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F743D921-4C10-4211-8AF8-5EB6476956C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F743D921-4C10-4211-8AF8-5EB6476956C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F743D921-4C10-4211-8AF8-5EB6476956C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCCB463F-4AAB-4397-9497-F717A99EEC1B}
+	EndGlobalSection
+EndGlobal
