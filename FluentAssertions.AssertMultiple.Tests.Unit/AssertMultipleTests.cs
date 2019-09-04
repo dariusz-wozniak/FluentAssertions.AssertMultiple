@@ -1,12 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using static FluentAssertions.AssertMultiple.AssertMultiple;
 
 namespace FluentAssertions.AssertMultiple.Tests.Unit
 {
     public class AssertMultipleTests
     {
-        private const string Newline = "\r\n";
-
         [Test]
         public void AssertionShouldBeRunMultipleTimes()
         {
@@ -20,9 +19,11 @@ namespace FluentAssertions.AssertMultiple.Tests.Unit
             }
             catch (AssertionException exception)
             {
-                exception.Message
-                    .Should()
-                    .Be($"Expected (2 + 2) to be 5, but found 4.{Newline}Expected (2 + 2) to be 6, but found 4.{Newline}");
+                Console.WriteLine(exception.Message);
+
+                exception.Message.Should().Contain("to be 5, but found 4")
+                     .And.Subject.Should().Contain("to be 6, but found 4.");
+                //                                        ⬆ differs here
             }
         }
     }
