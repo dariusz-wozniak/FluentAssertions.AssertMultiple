@@ -1,5 +1,7 @@
 # FluentAssertions.AssertMultiple
 
+Nuget URL: https://www.nuget.org/packages/FluentAssertions.AssertMultiple
+
 This is an unofficial add-on for the [FluentAssertions](https://fluentassertions.com/) library.
 
 This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
