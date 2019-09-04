@@ -6,7 +6,7 @@ This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
 
 Basically, it replaces using syntax (old way):
 
-```
+```csharp
 using (new AssertionScope())
 {
   (2 + 2).Should().Be(5);
