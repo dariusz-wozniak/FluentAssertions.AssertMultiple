@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/y82o5nrhoje7u6xk?svg=true)](https://ci.appveyor.com/project/dariusz-wozniak/fluentassertions-assertmultiple)
+
 # FluentAssertions.AssertMultiple
 
 Nuget URL: https://www.nuget.org/packages/FluentAssertions.AssertMultiple
