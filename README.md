@@ -2,7 +2,7 @@
 
 # FluentAssertions.AssertMultiple
 
-Nuget URL: https://www.nuget.org/packages/FluentAssertions.AssertMultiple
+[![NuGet](https://buildstats.info/nuget/FluentAssertions.AssertMultiple)](https://www.nuget.org/packages/FluentAssertions.AssertMultiple/)
 
 This is an unofficial add-on for the [FluentAssertions](https://fluentassertions.com/) library.
 
