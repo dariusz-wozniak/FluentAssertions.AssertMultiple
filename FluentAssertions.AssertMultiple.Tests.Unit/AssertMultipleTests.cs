@@ -46,7 +46,7 @@ namespace FluentAssertions.AssertMultiple.Tests.Unit
                 Console.WriteLine(exception.Message);
 
                 exception.Message.Should().Contain("to be 5, but found 4")
-                    .And.Subject.Should().Contain("to be 6, but found 4.");
+                     .And.Subject.Should().Contain("to be 6, but found 4.");
                 //                                        ⬆ differs here
             }
         }
