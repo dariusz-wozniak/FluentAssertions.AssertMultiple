@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using static FluentAssertions.AssertMultiple.AssertMultiple;
 
 namespace FluentAssertions.AssertMultiple.Tests.Unit
 {
@@ -12,7 +11,7 @@ namespace FluentAssertions.AssertMultiple.Tests.Unit
         {
             try
             {
-                Multiple(() =>
+                AssertMultiple.Multiple(() =>
                 {
                     (2 + 2).Should().Be(5);
                     (2 + 2).Should().Be(6);
@@ -34,7 +33,7 @@ namespace FluentAssertions.AssertMultiple.Tests.Unit
         {
             try
             {
-                await MultipleAsync(async () =>
+                await AssertMultiple.MultipleAsync(async () =>
                 {
                     (2 + 2).Should().Be(5);
                     await Task.Delay(200);
