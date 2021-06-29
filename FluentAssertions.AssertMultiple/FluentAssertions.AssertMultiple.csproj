@@ -8,14 +8,13 @@
     <Description>This replaces using (sic!) AssertionScope by the Action invocation (AssertMultiple.Multiple).</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
     <RepositoryUrl>https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple</RepositoryUrl>
-    <Version>0.0.2.1</Version>
+    <Version>0.0.3</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple</PackageProjectUrl>
-    <PackageReleaseNotes>Fix NuGet package</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
   </ItemGroup>
 
   <ItemGroup>

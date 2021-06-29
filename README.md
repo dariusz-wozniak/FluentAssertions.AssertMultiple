@@ -10,6 +10,10 @@ This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
 
 ## Versions
 
+### 0.0.3
+
+- Update FluentAssertions to 5.10.3
+
 #### 0.0.2.1
 - Fix NuGet package
 
