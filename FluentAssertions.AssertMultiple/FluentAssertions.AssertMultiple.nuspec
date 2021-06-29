@@ -7,6 +7,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple</projectUrl>
     <description>This replaces using (sic!) AssertionScope by the Action invocation (AssertMultiple.Multiple).</description>
     <repository url="https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple" />
     <dependencies>

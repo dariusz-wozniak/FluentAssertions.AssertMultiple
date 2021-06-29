@@ -8,6 +8,18 @@ This is an unofficial add-on for the [FluentAssertions](https://fluentassertions
 
 This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
 
+## Versions
+
+### 0.0.3
+
+- Update FluentAssertions to 5.10.3
+- Fix NuGet package
+
+### 0.0.2
+- [#1 Support for async](https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple/issues/1)
+
+## Usage
+
 Basically, it replaces using syntax (old way):
 
 ```csharp

@@ -7,6 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.AssertMult
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentAssertions.AssertMultiple.Tests.Unit", "FluentAssertions.AssertMultiple.Tests.Unit\FluentAssertions.AssertMultiple.Tests.Unit.csproj", "{B9105728-835C-4798-8288-B18D18087149}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{98C34E2D-00A7-44C8-9645-44DBE70FFF96}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{846BC8A9-3564-4600-A6C5-FFF68A4AE3FD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		FluentAssertions.AssertMultiple.sln.DotSettings.user = FluentAssertions.AssertMultiple.sln.DotSettings.user
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
