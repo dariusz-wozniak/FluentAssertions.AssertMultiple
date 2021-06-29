@@ -13,6 +13,7 @@ This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
 ### 0.0.3
 
 - Update FluentAssertions to 5.10.3
+- Fix NuGet package
 
 ### 0.0.2
 - [#1 Support for async](https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple/issues/1)
