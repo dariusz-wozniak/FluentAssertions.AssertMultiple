@@ -10,6 +10,11 @@ This replaces using (_sic!_) `AssertionScope` by the `Action` invocation.
 
 ## Versions
 
+### 0.0.4
+
+- Drop support for .NET Framework 4.5
+- Update FluentAssertions to 6.1.0
+
 ### 0.0.3
 
 - Update FluentAssertions to 5.10.3
