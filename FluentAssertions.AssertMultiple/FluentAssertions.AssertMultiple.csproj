@@ -8,7 +8,7 @@
     <Description>This replaces using (sic!) AssertionScope by the Action invocation (AssertMultiple.Multiple).</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
     <RepositoryUrl>https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple</RepositoryUrl>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/dariusz-wozniak/FluentAssertions.AssertMultiple</PackageProjectUrl>
   </PropertyGroup>
